@@ -66,6 +66,12 @@ ynh_app_setting_set $app domain $domain
 ynh_app_setting_set $app path $path_url
 ynh_app_setting_set $app is_public $is_public
 
+#==============================================
+# INSTALL DEPS
+#==============================================
+
+ynh_package_install php7.0-zip
+
 #=================================================
 # FIND AND OPEN A PORT
 #=================================================
