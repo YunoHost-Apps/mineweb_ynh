@@ -134,7 +134,6 @@ ynh_replace_string "__DBNAME__"   "$db_name"   "$final_path/app/Config/database.
 # Calculate and store the config file checksum into the app settings
 #ynh_store_file_checksum "/etc/onlyoffice/documentserver/nginx/onlyoffice-documentserver.conf"
 
-
 #=================================================
 # GENERIC FINALIZATION
 #=================================================
@@ -146,9 +145,8 @@ ynh_replace_string "__DBNAME__"   "$db_name"   "$final_path/app/Config/database.
 ### that really need such authorization.
 
 # Set permissions to app files
-#chown -R root: /etc/loolwsd
-chmod -R 755 $final_path
-
+chown -R $app:$app $final_path
+chmod -R 775 $final_path
 
 #=================================================
 # SETUP SSOWAT
