@@ -91,10 +91,6 @@ db_name=$(ynh_sanitize_dbid $app)
 ynh_app_setting_set $app db_name $db_name
 ynh_mysql_setup_db $db_name $db_name
 
-
-		'login' => '',
-		'password' => '',
-		'database' => '',
 #=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
 #=================================================
@@ -121,11 +117,11 @@ ynh_system_user_create $app
 # MODIFY A CONFIG FILE
 #=================================================
 
-cp -a ../conf/database.php $final_path/database.php
+cp -a ../conf/database.php $final_path/app/Config/database.php
 
-ynh_replace_string "__DBUSER__"   "$db_name"    "$final_path/config.json"
-ynh_replace_string "__DBPWD__"   "$db_pwd"     "$final_path/config.json"
-ynh_replace_string "__DBNAME__" "$db_name" "$final_path/config.json"
+ynh_replace_string "__DBUSER__"   "$db_name"   "$final_path/app/Config/database.php"
+ynh_replace_string "__DBPWD__"    "$db_pwd"    "$final_path/app/Config/database.php"
+ynh_replace_string "__DBNAME__"   "$db_name"   "$final_path/app/Config/database.php"
 
 #=================================================
 # STORE THE CONFIG FILE CHECKSUM
@@ -151,6 +147,7 @@ ynh_replace_string "__DBNAME__" "$db_name" "$final_path/config.json"
 
 # Set permissions to app files
 #chown -R root: /etc/loolwsd
+chmod -R 755 $final_path
 
 
 #=================================================
