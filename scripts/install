@@ -151,7 +151,7 @@ ynh_store_file_checksum "$final_path/app/Config/database.php"
 ### that really need such authorization.
 
 # Set permissions to app files
-chown -R $app:$app $final_path
+chown -R www-data:www-data $final_path
 chmod -R 775 $final_path
 
 #=================================================
