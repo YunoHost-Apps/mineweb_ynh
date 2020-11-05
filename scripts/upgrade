@@ -116,45 +116,12 @@ ynh_add_fpm_config --phpversion=$YNH_PHP_VERSION --package="$extra_php_dependenc
 
 if [ "$upgrade_type" == "UPGRADE_APP" ]
 then
-	ynh_script_progression --message="Reconfiguring ttrss..." --weight=2
-
-	# Backup the config file in the temp dir
-	cp -a "$final_path/config.php" "$tmpdir/config.php"
+	ynh_script_progression --message="Reconfiguring..." --weight=2
 
 	# Replace the old ttrss by the new one
 	ynh_secure_remove --file="$final_path"
-	mv "$tmpdir" "$final_path"
-	ynh_secure_remove --file="$tmpdir"
 
-	# Verify the checksum and backup the file if it's different
-	ynh_backup_if_checksum_is_different --file="$final_path/config.php"
-
-	cp ../conf/config.php "$final_path/config.php"
-
-	# Change variables in ttrss configuration
-	ynh_replace_string --match_string="__DBNAME__" --replace_string="$db_name" --target_file="$final_path/config.php"
-	ynh_replace_string --match_string="__DBPWD__" --replace_string="$db_pwd" --target_file="$final_path/config.php"
-	ynh_replace_string --match_string="__DOMAINPATH__" --replace_string="https://$domain$path_url" --target_file="$final_path/config.php"
-
-	# Recalculate and store the config file checksum into the app settings
-	ynh_store_file_checksum --file="$final_path/config.php"
-
-	#=================================================
-	# UPGRADE DATABASE
-	#=================================================
-	ynh_script_progression --message="Upgrading ttrss database..." --weight=2
-
-	chown -R $app: $final_path
-	ynh_exec_as $app php"${phpversion}" ${final_path}/update.php --update-schema
 fi
-
-#=================================================
-# SETUP SYSTEMD
-#=================================================
-ynh_script_progression --message="Upgrading systemd configuration..." --weight=2
-
-# Create a dedicated systemd config
-ynh_add_systemd_config
 
 #=================================================
 # GENERIC FINALIZATION
@@ -165,14 +132,6 @@ ynh_add_systemd_config
 # Set permissions to app files
 chown -R root: $final_path
 chmod 0755 $final_path
-
-
-#=================================================
-# RESTART TTRSS
-#=================================================
-ynh_script_progression --message="Restarting ttrss..." --weight=1
-
-ynh_systemd_action --service_name=$app --action=restart
 
 #=================================================
 # ADVERTISE SERVICE IN ADMIN PANEL

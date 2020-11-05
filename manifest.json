@@ -3,12 +3,12 @@
     "id": "mineweb",
     "packaging_format": 1,
     "description": {
-        "en": "",
-        "fr": ""
+        "en": "Customizable and intuitive CMS.",
+        "fr": "CMS personnalisable et intuitif."
     },
     "version": "1.10.3~ynh1",
     "url": "https://mineweb.org/",
-    "license": "free",
+    "license": "GPL-3.0 License",
     "maintainer": {
         "name": "liberodark",
         "email": "liberodark@gmail.com"

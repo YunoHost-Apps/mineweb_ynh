@@ -9,17 +9,13 @@
 If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/install) to learn how to install it.*
 
 ## Overview
-Quick description of this app.
+MineWeb est un CMS (c'est-à-dire un système de gestion de contenu), en plus simple, un site complètement personnalisable et intuitif, qui s'adaptera parfaitement à vos serveurs Minecraft !
 
-**Shipped version:** 1.0
+**Shipped version:** 1.10.3
 
 ## Screenshots
 
-![](Link to a screenshot of this app.)
-
-## Demo
-
-* [Official demo](Link to a demo site for this app.)
+![](https://mineweb.org/assets/img/features3_mb.png)
 
 ## Configuration
 
@@ -27,7 +23,7 @@ How to configure this app: From an admin panel, a plain file with SSH, or any ot
 
 ## Documentation
 
- * Official documentation: Link to the official documentation of this app
+ * Official documentation: https://docs.mineweb.org/
  * YunoHost documentation: If specific documentation is needed, feel free to contribute.
 
 ## YunoHost specific features
