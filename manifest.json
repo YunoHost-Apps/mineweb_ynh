@@ -6,7 +6,7 @@
         "en": "MineWeb package for YunoHost.",
         "fr": "MineWeb pour YunoHost."
     },
-    "version": "1.7.0",
+    "version": "1.10.3~ynh1",
     "url": "https://mineweb.org/",
     "license": "free",
     "maintainer": {
@@ -14,12 +14,12 @@
         "email": "liberodark@gmail.com"
     },
     "requirements": {
-        "yunohost": ">= 2.7.2"
+        "yunohost": ">= 4.0.0"
     },
     "multi_instance": true,
     "services": [
         "nginx",
-        "php5-fpm",
+        "php7.0-fpm",
         "mysql"
     ],
     "arguments": {
@@ -32,7 +32,6 @@
                 },
                 "example": "example.com"
             },
-
             {
                 "name": "path",
                 "type": "path",
@@ -43,7 +42,6 @@
                 "example": "/mineweb",
                 "default": "/mineweb"
             },
-            
             {
                 "name": "is_public",
                 "type": "boolean",
@@ -51,7 +49,7 @@
                     "en": "Is it a public site ?",
                     "fr": "Est-ce un site public ?"
                 },
-                "default": "true"
+                "default": true
             }
         ]
     }
