@@ -15,7 +15,7 @@ MineWeb est un CMS (c'est-à-dire un système de gestion de contenu), en plus si
 
 ## Screenshots
 
-![](https://mineweb.org/assets/img/features3_mb.png)
+![](https://mineweb.org/assets/img/features1_mb.png)
 
 ## Configuration
 
