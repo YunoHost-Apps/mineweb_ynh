@@ -77,11 +77,8 @@ if [ "$upgrade_type" == "UPGRADE_APP" ]
 then
 	ynh_script_progression --message="Upgrading source files..." --weight=7
 
-	# Create a temporary directory
-	tmpdir="$(ynh_smart_mktemp --min_size=10)"
-
 	# Download, check integrity, uncompress and patch the source from app.src
-	ynh_setup_source --dest_dir="$tmpdir"
+	ynh_setup_source --dest_dir="$final_path"
 fi
 
 #=================================================
@@ -109,35 +106,14 @@ ynh_script_progression --message="Upgrading PHP-FPM configuration..." --weight=2
 ynh_add_fpm_config --phpversion=$YNH_PHP_VERSION --package="$extra_php_dependencies"
 
 #=================================================
-# SPECIFIC UPGRADE
-#=================================================
-# CONFIGURE TTRSS
-#=================================================
-
-if [ "$upgrade_type" == "UPGRADE_APP" ]
-then
-	ynh_script_progression --message="Reconfiguring..." --weight=2
-
-	# Replace the old ttrss by the new one
-	ynh_secure_remove --file="$final_path"
-
-fi
-
-#=================================================
 # GENERIC FINALIZATION
 #=================================================
 # SECURE FILES AND DIRECTORIES
 #=================================================
 
 # Set permissions to app files
-chown -R root: $final_path
-chmod 0755 $final_path
-
-#=================================================
-# ADVERTISE SERVICE IN ADMIN PANEL
-#=================================================
-
-yunohost service add $app
+chown -R $app: $final_path
+chmod -R 0755 $final_path
 
 #=================================================
 # GENERIC FINALIZATION
