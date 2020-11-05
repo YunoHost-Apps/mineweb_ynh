@@ -3,8 +3,8 @@
     "id": "mineweb",
     "packaging_format": 1,
     "description": {
-        "en": "MineWeb package for YunoHost.",
-        "fr": "MineWeb pour YunoHost."
+        "en": "",
+        "fr": ""
     },
     "version": "1.10.3~ynh1",
     "url": "https://mineweb.org/",
@@ -46,7 +46,7 @@
                 "name": "is_public",
                 "type": "boolean",
                 "ask": {
-                    "en": "Is it a public site ?",
+                    "en": "Is it a public site?",
                     "fr": "Est-ce un site public ?"
                 },
                 "default": true
