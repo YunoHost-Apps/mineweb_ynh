@@ -119,7 +119,7 @@ ynh_replace_string --match_string="__DBNAME__" --replace_string="$db_name" --tar
 # MODIFY FIRST.CTP 
 #=================================================
 
-# ynh_replace_string --match_string="app/webroot/" --replace_string="" --target_file="$final_path/app/View/Install/first.ctp"
+ynh_replace_string --match_string="app/webroot/" --replace_string="" --target_file="$final_path/app/View/Install/first.ctp"
 
 #=================================================
 # GENERIC FINALIZATION
