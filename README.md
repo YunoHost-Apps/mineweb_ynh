@@ -9,7 +9,7 @@
 If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/install) to learn how to install it.*
 
 ## Overview
-MineWeb est un CMS (c'est-à-dire un système de gestion de contenu), en plus simple, un site complètement personnalisable et intuitif, qui s'adaptera parfaitement à vos serveurs Minecraft !
+MineWeb is a CMS (that is to say a content management system), in addition, a completely customizable and intuitive site, which will adapt perfectly to your Minecraft servers!
 
 **Shipped version:** 1.10.3
 
