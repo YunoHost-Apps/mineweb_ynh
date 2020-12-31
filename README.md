@@ -1,7 +1,7 @@
 # MineWeb for YunoHost
 
 [![Integration level](https://dash.yunohost.org/integration/mineweb.svg)](https://dash.yunohost.org/appci/app/mineweb) ![](https://ci-apps.yunohost.org/ci/badges/mineweb.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/mineweb.maintain.svg)  
-[![Install MineWeb with YunoHost](https://install-app.yunohost.org/install-with-yunohost.png)](https://install-app.yunohost.org/?app=mineweb)
+[![Install MineWeb with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=mineweb)
 
 *[Lire ce readme en français.](./README_fr.md)*
 
@@ -11,7 +11,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 ## Overview
 MineWeb is a CMS (that is to say a content management system), in addition, a completely customizable and intuitive site, which will adapt perfectly to your Minecraft servers!
 
-**Shipped version:** 1.10.3
+**Shipped version:** 1.12.0
 
 ## Screenshots
 
