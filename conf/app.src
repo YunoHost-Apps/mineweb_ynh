@@ -1,5 +1,5 @@
-SOURCE_URL=https://github.com/MineWeb/MineWebCMS/archive/v1.12.0.tar.gz
-SOURCE_SUM=bb7da6116ba59155e8efb36849f71f37ccc96b9aeb8dd7b68acca0b618d20b2e
+SOURCE_URL=https://github.com/MineWeb/MineWebCMS/archive/v1.13.0.tar.gz
+SOURCE_SUM=81b63557732cd106eb7c595ec73b886d1fddd53826c299ff92fc7f9ce590f9df
 SOURCE_SUM_PRG=sha256sum
 SOURCE_FORMAT=tar.gz
 SOURCE_IN_SUBDIR=true
