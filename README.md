@@ -11,7 +11,7 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 ## Overview
 MineWeb is a CMS (that is to say a content management system), in addition, a completely customizable and intuitive site, which will adapt perfectly to your Minecraft servers!
 
-**Shipped version:** 1.12.0
+**Shipped version:** 1.13.0
 
 ## Screenshots
 
