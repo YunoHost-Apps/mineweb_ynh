@@ -5,9 +5,9 @@ class DATABASE_CONFIG {
 		'datasource' => 'Database/Mysql',
 		'persistent' => false,
 		'host' => 'localhost',
-		'login' => '__DBUSER__',
-		'password' => '__DBPWD__',
-		'database' => '__DBNAME__',
+		'login' => '__DB_USER__',
+		'password' => '__DB_PWD__',
+		'database' => '__DB_NAME__',
 		'encoding' => 'utf8',
 	];
 }
