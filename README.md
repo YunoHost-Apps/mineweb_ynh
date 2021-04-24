@@ -35,8 +35,8 @@ How to configure this app: From an admin panel, a plain file with SSH, or any ot
 
 #### Supported architectures
 
-* x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/mineweb%20%28Apps%29.svg)](https://ci-apps.yunohost.org/ci/apps/mineweb/)
-* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/minewebP%20%28Apps%29.svg)](https://ci-apps-arm.yunohost.org/ci/apps/mineweb/)
+* x86-64 - [![Build Status](https://ci-apps.yunohost.org/ci/logs/mineweb.svg)](https://ci-apps.yunohost.org/ci/apps/mineweb/)
+* ARMv8-A - [![Build Status](https://ci-apps-arm.yunohost.org/ci/logs/mineweb.svg)](https://ci-apps-arm.yunohost.org/ci/apps/mineweb/)
 
 ## Limitations
 
