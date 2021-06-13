@@ -6,7 +6,7 @@
         "en": "Customizable and intuitive CMS.",
         "fr": "CMS personnalisable et intuitif."
     },
-    "version": "1.13.0~ynh3",
+    "version": "1.13.0~ynh4",
     "url": "https://mineweb.org/",
     "license": "AGPL-3.0-only",
     "maintainer": {
@@ -14,7 +14,7 @@
         "email": "liberodark@gmail.com"
     },
     "requirements": {
-        "yunohost": ">= 4.1.7"
+        "yunohost": ">= 4.2.4"
     },
     "multi_instance": true,
     "services": [
