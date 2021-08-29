@@ -3,11 +3,17 @@
     "id": "mineweb",
     "packaging_format": 1,
     "description": {
-        "en": "Customizable and intuitive CMS.",
-        "fr": "CMS personnalisable et intuitif."
+        "en": "Customizable and intuitive CMS",
+        "fr": "CMS personnalisable et intuitif"
     },
-    "version": "1.13.0~ynh4",
+    "version": "1.14.3~ynh1",
     "url": "https://mineweb.org/",
+    "upstream": {
+        "license": "AGPL-3.0-only",
+        "website": "https://mineweb.org/",
+        "admindoc": "https://docs.mineweb.org/",
+        "code": "ttps://github.com/MineWeb/MineWebCMS/"
+    },
     "license": "AGPL-3.0-only",
     "maintainer": {
         "name": "liberodark",
