@@ -28,7 +28,7 @@ Vous pourrez tenir vos joueurs au courant des actualités, leur faire acheter de
 
 * Site officiel de l'app : https://mineweb.org/
 * Documentation officielle de l'admin : https://docs.mineweb.org/
-* Dépôt de code officiel de l'app : ttps://github.com/MineWeb/MineWebCMS/
+* Dépôt de code officiel de l'app : https://github.com/MineWeb/MineWebCMS/
 * Documentation YunoHost pour cette app : https://yunohost.org/app_mineweb
 * Signaler un bug : https://github.com/YunoHost-Apps/mineweb_ynh/issues
 

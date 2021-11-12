@@ -32,7 +32,7 @@ Vous pourrez tenir vos joueurs au courant des actualités, leur faire acheter de
 
 * Official app website: https://mineweb.org/
 * Official admin documentation: https://docs.mineweb.org/
-* Upstream app code repository: ttps://github.com/MineWeb/MineWebCMS/
+* Upstream app code repository: https://github.com/MineWeb/MineWebCMS/
 * YunoHost documentation for this app: https://yunohost.org/app_mineweb
 * Report a bug: https://github.com/YunoHost-Apps/mineweb_ynh/issues
 
