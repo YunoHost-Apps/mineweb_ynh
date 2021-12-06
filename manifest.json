@@ -6,7 +6,7 @@
         "en": "Customizable and intuitive CMS",
         "fr": "CMS personnalisable et intuitif"
     },
-    "version": "1.14.9~ynh1",
+    "version": "1.15.1~ynh1",
     "url": "https://mineweb.org/",
     "upstream": {
         "license": "AGPL-3.0-only",
