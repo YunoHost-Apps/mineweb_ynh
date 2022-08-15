@@ -5,7 +5,7 @@ It shall NOT be edited by hand.
 
 # MineWeb for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/mineweb.svg)](https://dash.yunohost.org/appci/app/mineweb) ![](https://ci-apps.yunohost.org/ci/badges/mineweb.status.svg) ![](https://ci-apps.yunohost.org/ci/badges/mineweb.maintain.svg)  
+[![Integration level](https://dash.yunohost.org/integration/mineweb.svg)](https://dash.yunohost.org/appci/app/mineweb) ![Working status](https://ci-apps.yunohost.org/ci/badges/mineweb.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/mineweb.maintain.svg)  
 [![Install MineWeb with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=mineweb)
 
 *[Lire ce readme en français.](./README_fr.md)*
@@ -23,28 +23,28 @@ Vous pourrez tenir vos joueurs au courant des actualités, leur faire acheter de
 **Shipped version:** 1.15.1~ynh1
 
 
-
 ## Screenshots
 
-![](./doc/screenshots/features1_mb.png)
+![Screenshot of MineWeb](./doc/screenshots/features1_mb.png)
 
 ## Documentation and resources
 
-* Official app website: https://mineweb.org/
-* Official admin documentation: https://docs.mineweb.org/
-* Upstream app code repository: https://github.com/MineWeb/MineWebCMS/
-* YunoHost documentation for this app: https://yunohost.org/app_mineweb
-* Report a bug: https://github.com/YunoHost-Apps/mineweb_ynh/issues
+* Official app website: <https://mineweb.org/>
+* Official admin documentation: <https://docs.mineweb.org/>
+* Upstream app code repository: <https://github.com/MineWeb/MineWebCMS/>
+* YunoHost documentation for this app: <https://yunohost.org/app_mineweb>
+* Report a bug: <https://github.com/YunoHost-Apps/mineweb_ynh/issues>
 
 ## Developer info
 
 Please send your pull request to the [testing branch](https://github.com/YunoHost-Apps/mineweb_ynh/tree/testing).
 
 To try the testing branch, please proceed like that.
-```
+
+``` bash
 sudo yunohost app install https://github.com/YunoHost-Apps/mineweb_ynh/tree/testing --debug
 or
 sudo yunohost app upgrade mineweb -u https://github.com/YunoHost-Apps/mineweb_ynh/tree/testing --debug
 ```
 
-**More info regarding app packaging:** https://yunohost.org/packaging_apps
+**More info regarding app packaging:** <https://yunohost.org/packaging_apps>
