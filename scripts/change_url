@@ -20,4 +20,4 @@ ynh_change_url_nginx_config
 # END OF SCRIPT
 #=================================================
 
-ynh_script_progression --message="Change of URL completed for MineWeb" --last
+ynh_script_progression --message="Change of URL completed for $app" --last

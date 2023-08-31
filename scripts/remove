@@ -28,4 +28,4 @@ ynh_remove_fpm_config
 # END OF SCRIPT
 #=================================================
 
-ynh_script_progression --message="Removal of MineWeb completed" --last
+ynh_script_progression --message="Removal of $app completed" --last

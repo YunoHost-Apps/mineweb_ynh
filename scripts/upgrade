@@ -60,4 +60,4 @@ ynh_replace_string --match_string="app/webroot/" --replace_string="" --target_fi
 # END OF SCRIPT
 #=================================================
 
-ynh_script_progression --message="Upgrade of MineWeb completed" --last
+ynh_script_progression --message="Upgrade of $app completed" --last
