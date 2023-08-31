@@ -5,7 +5,8 @@ It shall NOT be edited by hand.
 
 # MineWeb for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/mineweb.svg)](https://dash.yunohost.org/appci/app/mineweb) ![Working status](https://ci-apps.yunohost.org/ci/badges/mineweb.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/mineweb.maintain.svg)  
+[![Integration level](https://dash.yunohost.org/integration/mineweb.svg)](https://dash.yunohost.org/appci/app/mineweb) ![Working status](https://ci-apps.yunohost.org/ci/badges/mineweb.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/mineweb.maintain.svg)
+
 [![Install MineWeb with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=mineweb)
 
 *[Lire ce readme en français.](./README_fr.md)*
@@ -21,7 +22,6 @@ Vous pourrez tenir vos joueurs au courant des actualités, leur faire acheter de
 
 
 **Shipped version:** 1.15.1~ynh2
-
 
 ## Screenshots
 
