@@ -21,18 +21,17 @@ MineWeb est un CMS (c'est-à-dire un système de gestion de contenu), en plus si
 Vous pourrez tenir vos joueurs au courant des actualités, leur faire acheter des articles sur la boutique... Vous pourrez personnaliser le CMS avec toutes sortes de thèmes ou plugins ! Ceux-ci sont disponibles sur le market ou peuvent être développés par vous-même.
 
 
-**Version incluse :** 1.15.1~ynh2
+**Version incluse :** 1.15.2~ynh1
 
+## Captures d’écran
 
-## Captures d'écran
-
-![Capture d'écran de MineWeb](./doc/screenshots/features1_mb.png)
+![Capture d’écran de MineWeb](./doc/screenshots/features1_mb.png)
 
 ## Documentations et ressources
 
-* Site officiel de l'app : <https://mineweb.org/>
-* Documentation officielle de l'admin : <https://docs.mineweb.org/>
-* Dépôt de code officiel de l'app : <https://github.com/MineWeb/MineWebCMS/>
+* Site officiel de l’app : <https://mineweb.org/>
+* Documentation officielle de l’admin : <https://docs.mineweb.org/>
+* Dépôt de code officiel de l’app : <https://github.com/MineWeb/MineWebCMS/>
 * Documentation YunoHost pour cette app : <https://yunohost.org/app_mineweb>
 * Signaler un bug : <https://github.com/YunoHost-Apps/mineweb_ynh/issues>
 
