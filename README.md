@@ -20,7 +20,7 @@ MineWeb is a CMS (i.e. a content management system), in simpler terms, a complet
 
 You can keep your players up to date with news, have them buy items from the store... You can customize the CMS with all kinds of themes or plugins! These are available on the market or can be developed by yourself.
 
-**Shipped version:** 1.15.1~ynh2
+**Shipped version:** 1.15.2~ynh1
 
 ## Screenshots
 
