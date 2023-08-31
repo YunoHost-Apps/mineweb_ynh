@@ -5,7 +5,8 @@ It shall NOT be edited by hand.
 
 # MineWeb for YunoHost
 
-[![Integration level](https://dash.yunohost.org/integration/mineweb.svg)](https://dash.yunohost.org/appci/app/mineweb) ![Working status](https://ci-apps.yunohost.org/ci/badges/mineweb.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/mineweb.maintain.svg)  
+[![Integration level](https://dash.yunohost.org/integration/mineweb.svg)](https://dash.yunohost.org/appci/app/mineweb) ![Working status](https://ci-apps.yunohost.org/ci/badges/mineweb.status.svg) ![Maintenance status](https://ci-apps.yunohost.org/ci/badges/mineweb.maintain.svg)
+
 [![Install MineWeb with YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=mineweb)
 
 *[Lire ce readme en français.](./README_fr.md)*
@@ -15,13 +16,11 @@ If you don't have YunoHost, please consult [the guide](https://yunohost.org/#/in
 
 ## Overview
 
-MineWeb est un CMS (c'est-à-dire un système de gestion de contenu), en plus simple, un site complètement personnalisable et intuitif, qui s'adaptera parfaitement à vos serveurs Minecraft !
+MineWeb is a CMS (i.e. a content management system), in simpler terms, a completely customizable and intuitive site, which will adapt perfectly to your Minecraft servers!
 
-Vous pourrez tenir vos joueurs au courant des actualités, leur faire acheter des articles sur la boutique... Vous pourrez personnaliser le CMS avec toutes sortes de thèmes ou plugins ! Ceux-ci sont disponibles sur le market ou peuvent être développés par vous-même.
+You can keep your players up to date with news, have them buy items from the store... You can customize the CMS with all kinds of themes or plugins! These are available on the market or can be developed by yourself.
 
-
-**Shipped version:** 1.15.1~ynh2
-
+**Shipped version:** 1.15.2~ynh1
 
 ## Screenshots
 

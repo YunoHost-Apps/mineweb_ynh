@@ -5,33 +5,33 @@ It shall NOT be edited by hand.
 
 # MineWeb pour YunoHost
 
-[![Niveau d'intégration](https://dash.yunohost.org/integration/mineweb.svg)](https://dash.yunohost.org/appci/app/mineweb) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/mineweb.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/mineweb.maintain.svg)  
+[![Niveau d’intégration](https://dash.yunohost.org/integration/mineweb.svg)](https://dash.yunohost.org/appci/app/mineweb) ![Statut du fonctionnement](https://ci-apps.yunohost.org/ci/badges/mineweb.status.svg) ![Statut de maintenance](https://ci-apps.yunohost.org/ci/badges/mineweb.maintain.svg)
+
 [![Installer MineWeb avec YunoHost](https://install-app.yunohost.org/install-with-yunohost.svg)](https://install-app.yunohost.org/?app=mineweb)
 
 *[Read this readme in english.](./README.md)*
 
-> *Ce package vous permet d'installer MineWeb rapidement et simplement sur un serveur YunoHost.
-Si vous n'avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l'installer et en profiter.*
+> *Ce package vous permet d’installer MineWeb rapidement et simplement sur un serveur YunoHost.
+Si vous n’avez pas YunoHost, regardez [ici](https://yunohost.org/#/install) pour savoir comment l’installer et en profiter.*
 
-## Vue d'ensemble
+## Vue d’ensemble
 
 MineWeb est un CMS (c'est-à-dire un système de gestion de contenu), en plus simple, un site complètement personnalisable et intuitif, qui s'adaptera parfaitement à vos serveurs Minecraft !
 
 Vous pourrez tenir vos joueurs au courant des actualités, leur faire acheter des articles sur la boutique... Vous pourrez personnaliser le CMS avec toutes sortes de thèmes ou plugins ! Ceux-ci sont disponibles sur le market ou peuvent être développés par vous-même.
 
 
-**Version incluse :** 1.15.1~ynh2
+**Version incluse :** 1.15.2~ynh1
 
+## Captures d’écran
 
-## Captures d'écran
-
-![Capture d'écran de MineWeb](./doc/screenshots/features1_mb.png)
+![Capture d’écran de MineWeb](./doc/screenshots/features1_mb.png)
 
 ## Documentations et ressources
 
-* Site officiel de l'app : <https://mineweb.org/>
-* Documentation officielle de l'admin : <https://docs.mineweb.org/>
-* Dépôt de code officiel de l'app : <https://github.com/MineWeb/MineWebCMS/>
+* Site officiel de l’app : <https://mineweb.org/>
+* Documentation officielle de l’admin : <https://docs.mineweb.org/>
+* Dépôt de code officiel de l’app : <https://github.com/MineWeb/MineWebCMS/>
 * Documentation YunoHost pour cette app : <https://yunohost.org/app_mineweb>
 * Signaler un bug : <https://github.com/YunoHost-Apps/mineweb_ynh/issues>
 
@@ -47,4 +47,4 @@ ou
 sudo yunohost app upgrade mineweb -u https://github.com/YunoHost-Apps/mineweb_ynh/tree/testing --debug
 ```
 
-**Plus d'infos sur le packaging d'applications :** <https://yunohost.org/packaging_apps>
+**Plus d’infos sur le packaging d’applications :** <https://yunohost.org/packaging_apps>
