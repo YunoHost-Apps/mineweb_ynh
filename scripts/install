@@ -29,13 +29,13 @@ ynh_script_progression --message="Configuring NGINX web server..." --weight=2
 ynh_add_nginx_config
 
 # Create a dedicated PHP-FPM config
-ynh_add_fpm_config --usage=low --footprint=low
+ynh_add_fpm_config
 
 #=================================================
 # MODIFY A CONFIG FILE
 #=================================================
 
-ynh_add_config --template="../conf/database.php" --destination="$install_dir/app/Config/database.php"
+ynh_add_config --template="database.php" --destination="$install_dir/app/Config/database.php"
 
 #=================================================
 # MODIFY FIRST.CTP 
