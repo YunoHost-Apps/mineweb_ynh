@@ -31,7 +31,7 @@ You can keep your players up to date with news, have them buy items from the sto
 * Official app website: <https://mineweb.org/>
 * Official admin documentation: <https://docs.mineweb.org/>
 * Upstream app code repository: <https://github.com/MineWeb/MineWebCMS/>
-* YunoHost documentation for this app: <https://yunohost.org/app_mineweb>
+* YunoHost Store: <https://apps.yunohost.org/app/mineweb>
 * Report a bug: <https://github.com/YunoHost-Apps/mineweb_ynh/issues>
 
 ## Developer info
