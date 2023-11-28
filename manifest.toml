@@ -7,7 +7,7 @@ description.fr = "CMS personnalisable et intuitif"
 
 version = "1.15.2~ynh1"
 
-maintainers = [""]
+maintainers = []
 
 [upstream]
 license = "AGPL-3.0-only"
