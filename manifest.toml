@@ -5,7 +5,7 @@ name = "MineWeb"
 description.en = "Customizable and intuitive CMS"
 description.fr = "CMS personnalisable et intuitif"
 
-version = "1.15.2~ynh2"
+version = "v1.15.2~ynh1"
 
 maintainers = []
 
@@ -44,7 +44,7 @@ ram.runtime = "50M"
 
 [resources]
         [resources.sources.main]
-        url = "https://github.com/MineWeb/MineWebCMS/archive/v1.15.2.tar.gz"
+        url = "https://github.com/MineWeb/MineWebCMS/archive/refs/tags/v1.15.2.tar.gz"
         sha256 = "5192522854a08c3aebb0af70f88fa4b63f50006736d24d37bbbcd1bb016b62fe"
         autoupdate.strategy = "latest_github_tag"
 
