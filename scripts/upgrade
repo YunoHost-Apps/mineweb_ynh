@@ -26,7 +26,7 @@ then
 	ynh_script_progression --message="Upgrading source files..." --weight=7
 
 	# Download, check integrity, uncompress and patch the source from app.src
-	ynh_setup_source --dest_dir="$install_dir" --keep="app/Config/database.php"
+	ynh_setup_source --dest_dir="$install_dir" --full_replace=1 --keep="app/Config/database.php"
 fi
 
 chmod -R o-rwx "$install_dir"
