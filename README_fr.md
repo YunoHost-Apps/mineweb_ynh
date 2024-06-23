@@ -27,6 +27,10 @@ Vous pourrez tenir vos joueurs au courant des actualités, leur faire acheter de
 
 ![Capture d’écran de MineWeb](./doc/screenshots/features1_mb.png)
 
+## :red_circle: Anti-fonctionnalités
+
+- **Application non maintenue **: Ce logiciel n'est plus maintenu. Attendez-vous à ce qu'il ne fonctionne plus avec le temps, et que l'on découvre des failles de sécurité qui ne seront pas corrigées, etc.
+
 ## Documentations et ressources
 
 - Site officiel de l’app : <https://mineweb.org/>
