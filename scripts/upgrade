@@ -1,63 +1,50 @@
 #!/bin/bash
 
-#=================================================
-# GENERIC START
-#=================================================
-# IMPORT GENERIC HELPERS
-#=================================================
-
 source _common.sh
 source /usr/share/yunohost/helpers
 
 #=================================================
-# CHECK VERSION
-#=================================================
-
-upgrade_type=$(ynh_check_app_version_changed)
-
-#=================================================
-# STANDARD UPGRADE STEPS
-#=================================================
 # DOWNLOAD, CHECK AND UNPACK SOURCE
 #=================================================
 
-if [ "$upgrade_type" == "UPGRADE_APP" ]
+# FIXME: this is still supported but the recommendation is now to *always* re-setup the app sources wether or not the upstream sources changed
+if ynh_app_upstream_version_changed
 then
-	ynh_script_progression --message="Upgrading source files..." --weight=7
+	ynh_script_progression "Upgrading source files..."
 
 	# Download, check integrity, uncompress and patch the source from app.src
 	ynh_setup_source --dest_dir="$install_dir" --keep="app/Config/database.php"
 fi
 
-chmod -R o-rwx "$install_dir"
-chown -R $app:www-data "$install_dir"
-
+#REMOVEME? Assuming the install dir is setup using ynh_setup_source, the proper chmod/chowns are now already applied and it shouldn't be necessary to tweak perms | chmod -R o-rwx "$install_dir"
+#REMOVEME? Assuming the install dir is setup using ynh_setup_source, the proper chmod/chowns are now already applied and it shouldn't be necessary to tweak perms | chown -R $app:www-data "$install_dir"
 #=================================================
 # NGINX CONFIGURATION
 #=================================================
-ynh_script_progression --message="Upgrading NGINX web server configuration..." --weight=2
+ynh_script_progression "Upgrading NGINX web server configuration..."
 
 # Create a dedicated NGINX config
-ynh_add_nginx_config
+ynh_config_add_nginx
 
 # Create a dedicated PHP-FPM config
-ynh_add_fpm_config
+ynh_config_add_phpfpm
 
 #=================================================
 # MODIFY A CONFIG FILE
 #=================================================
-#ynh_script_progression --message="Updating a configuration file..."--weight=1
+#ynh_script_progression "Updating configuration..."
 
-#ynh_add_config --template="../conf/database.php" --destination="$install_dir/app/Config/database.php"
+#ynh_config_add --template="database.php" --destination="$install_dir/app/Config/database.php"
 
 #=================================================
-# MODIFY FIRST.CTP 
+# MODIFY FIRST.CTP
+
 #=================================================
 
-ynh_replace_string --match_string="app/webroot/" --replace_string="" --target_file="$install_dir/app/View/Install/first.ctp"
+ynh_replace --match="app/webroot/" --replace="" --file="$install_dir/app/View/Install/first.ctp"
 
 #=================================================
 # END OF SCRIPT
 #=================================================
 
-ynh_script_progression --message="Upgrade of $app completed" --last
+ynh_script_progression "Upgrade of $app completed"
