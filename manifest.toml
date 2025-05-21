@@ -16,7 +16,7 @@ admindoc = "https://docs.mineweb.org/"
 code = "https://github.com/MineWeb/MineWebCMS/"
 
 [integration]
-yunohost = ">= 11.2.18"
+yunohost = ">= 12.0.9"
 helpers_version = "2.1"
 architectures = "all"
 multi_instance = true
@@ -58,7 +58,7 @@ ram.runtime = "50M"
     main.url = "/"
 
     [resources.apt]
-    packages = "mariadb-server, php8.2-zip, php8.2-gd, php8.2-curl"
+    packages = "mariadb-server, php7.2-zip, php7.2-gd, php7.2-curl"
 
     [resources.database]
     type = "mysql"
