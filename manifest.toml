@@ -5,7 +5,7 @@ name = "MineWeb"
 description.en = "Customizable and intuitive CMS"
 description.fr = "CMS personnalisable et intuitif"
 
-version = "1.15.2~ynh2"
+version = "1.15.2~ynh3"
 
 maintainers = []
 
